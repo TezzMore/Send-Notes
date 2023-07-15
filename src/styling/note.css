@@ -1,0 +1,31 @@
+.note {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    top: 10px;
+    width: 200px;
+    height: 150px;
+    position: relative; /* Add this line */
+  }
+  
+  .note h1 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .note p {
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 10px;
+  }
+  
+  .deleteIcon {
+    cursor: pointer;
+    color: rgb(255, 157, 0);
+    position: absolute; /* Add this line */
+    bottom: 10px; /* Adjust the value as needed */
+    right: 10px; /* Adjust the value as needed */
+  }
+  

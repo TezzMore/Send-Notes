@@ -1,0 +1,54 @@
+.main_note {
+    background-color: #f3f3f3;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative; /* Added to create a positioning context for the button */
+  }
+  
+  .main_note form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main_note input,
+  .main_note textarea {
+    border: none;
+    align-self: center;
+    border-radius: 5px;
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .main_note input {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .main_note textarea {
+    align-self: center;
+    height: 100px;
+    width: 500px;
+    font-size: 14px;
+  }
+  
+  .plus_sign {
+    position: absolute; /* Added to position the button */
+    bottom: 10px;
+    left: 500px; /* Adjust the distance from the bottom as needed */
+     /* Adjust the distance from the right as needed */
+    width: 50px;
+    height: 50px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #555;
+    cursor: pointer;
+  }
+  
